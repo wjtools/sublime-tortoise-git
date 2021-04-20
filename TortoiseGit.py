@@ -48,7 +48,7 @@ def run_tortoise_git_command(command, args, path, isHung=False):
     tortoisegit_path = settings.get('tortoisegit_path')
 
     if tortoisegit_path is None or not os.path.isfile(tortoisegit_path):
-        # sublime.error_message('can\'t find TortoiseGitProc.exe, please config setting file\n   --sublime-TortoiseGit')
+        # sublime.error_message('can\'t find TortoiseGitProc.exe, please config setting file\n   --TortoiseGit')
         # raise
         tortoisegit_path = 'TortoiseGitProc.exe'
 

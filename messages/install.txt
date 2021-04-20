@@ -1,10 +1,10 @@
-# Sublime-TortoiseGit
+# Sublime TortoiseGit
 
-A TortoiseGit Plugin for [Sublime Text](http://www.sublimetext.com).
+A TortoiseGit Plugin for [Sublime Text](https://www.sublimetext.com).
 
 ## Usage
 
-Install it using [Sublime Package Control](http://wbond.net/sublime_packages/package_control).
+Install it using [Sublime Package Control](https://packagecontrol.io).
 
 The default key bindings:
 - [alt+c] : commit current file.
