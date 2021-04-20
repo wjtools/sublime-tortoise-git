@@ -1,0 +1,27 @@
+[
+  {
+    "keys": ["alt+u"],
+    "command": "git_pull"
+  },
+  {
+    "keys": ["alt+c"],
+    "command": "git_commit"
+  },
+  {
+    "keys": ["alt+l"],
+    "command": "git_log",
+    "args": { "paths": [] }
+  },
+  {
+    "keys": ["alt+shift+d"],
+    "command": "git_diff"
+  },
+  {
+    "keys": ["alt+shift+c"],
+    "command": "git_commit_repo"
+  },
+  {
+    "keys": ["alt+shift+u"],
+    "command": "git_sync"
+  }
+]

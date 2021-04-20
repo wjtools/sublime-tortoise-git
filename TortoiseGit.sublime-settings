@@ -1,0 +1,5 @@
+{
+  // Auto close update dialog when no errors, conflicts and merges
+  "auto_close_pull_dialog": true,
+  "tortoisegit_path": "C:\\Program Files\\TortoiseGit\\bin\\TortoiseGitProc.exe"
+}

@@ -1,0 +1,8 @@
+Sublime-TortoiseGit 1.1.0 changelog
+=============================
+
+NEW FEATURES
+------------
+
+- Add "TortoiseGit Log" command.
+  Shortcuts: [Alt+l]

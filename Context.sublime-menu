@@ -1,0 +1,17 @@
+[
+  {
+    "id": "TortoiseGit",
+    "caption": "TortoiseGit",
+    "children": [
+      { "caption": "Status", "command": "git_status" },
+      { "caption": "Log", "command": "git_log" },
+      { "caption": "Diff", "command": "git_diff" },
+      { "caption": "Blame", "command": "git_blame" },
+      { "caption": "Pull", "command": "git_pull" },
+      { "caption": "Revert", "command": "git_revert" },
+      { "caption": "Commit...", "command": "git_commit" },
+      { "caption": "Commit repo...", "command": "git_commit_repo" },
+      { "caption": "Sync repo...", "command": "git_sync" }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+[
+  { "caption": "TortoiseGit: Status", "command": "git_status" },
+  { "caption": "TortoiseGit: Log", "command": "git_log" },
+  { "caption": "TortoiseGit: Diff", "command": "git_diff" },
+  { "caption": "TortoiseGit: Blame", "command": "git_blame" },
+  { "caption": "TortoiseGit: Pull", "command": "git_pull" },
+  { "caption": "TortoiseGit: Revert", "command": "git_revert" },
+  { "caption": "TortoiseGit: Commit...", "command": "git_commit" },
+  { "caption": "TortoiseGit: Commit repo...", "command": "git_commit_repo" },
+  { "caption": "TortoiseGit: Sync repo...", "command": "git_sync" }
+]

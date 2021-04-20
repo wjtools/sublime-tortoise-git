@@ -1,0 +1,54 @@
+[
+  {
+    "id": "preferences",
+    "children":
+    [
+      {
+        "caption": "Package Settings",
+        "id": "package-settings",
+        "children":
+        [
+          {
+            "caption": "TortoiseGit",
+            "children":
+            [
+              {
+                "caption": "Settings – Default",
+                "command": "open_file",
+                "args":
+                {
+                  "file": "${packages}/TortoiseGit/TortoiseGit.sublime-settings"
+                }
+              },
+              {
+                "caption": "Settings – User",
+                "command": "open_file",
+                "args":
+                {
+                  "file": "${packages}/User/TortoiseGit.sublime-settings"
+                }
+              },
+              { "caption": "-" },
+              {
+                "caption": "Key Bindings – Default",
+                "command": "open_file",
+                "args": {
+                  "file": "${packages}/TortoiseGit/Default (Windows).sublime-keymap",
+                  "platform": "Windows"
+                }
+              },
+              {
+                "caption": "Key Bindings – User",
+                "command": "open_file",
+                "args": {
+                  "file": "${packages}/User/Default (Windows).sublime-keymap",
+                  "platform": "Windows"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
