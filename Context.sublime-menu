@@ -10,6 +10,7 @@
       { "caption": "Pull", "command": "git_pull" },
       { "caption": "Revert", "command": "git_revert" },
       { "caption": "Commit...", "command": "git_commit" },
+      { "caption": "Log repo...", "command": "git_log_repo" },
       { "caption": "Commit repo...", "command": "git_commit_repo" },
       { "caption": "Sync repo...", "command": "git_sync" }
     ]

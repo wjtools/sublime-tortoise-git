@@ -6,6 +6,7 @@
   { "caption": "TortoiseGit: Pull", "command": "git_pull" },
   { "caption": "TortoiseGit: Revert", "command": "git_revert" },
   { "caption": "TortoiseGit: Commit...", "command": "git_commit" },
+  { "caption": "TortoiseGit: Log repo...", "command": "git_log_repo" },
   { "caption": "TortoiseGit: Commit repo...", "command": "git_commit_repo" },
   { "caption": "TortoiseGit: Sync repo...", "command": "git_sync" }
 ]

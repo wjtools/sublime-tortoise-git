@@ -13,6 +13,10 @@
     "args": { "paths": [] }
   },
   {
+    "keys": ["alt+shift+l"],
+    "command": "git_log_repo"
+  },
+  {
     "keys": ["alt+shift+d"],
     "command": "git_diff"
   },

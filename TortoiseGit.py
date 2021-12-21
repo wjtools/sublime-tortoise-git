@@ -134,7 +134,6 @@ class TortoiseGitCommand(sublime_plugin.WindowCommand):
         arguments = []
         line_number = self._active_line_number()
         if line_number:
-            # args.append('/line:{}'.format(line_number))
             arguments = args + ['/line:{}'.format(line_number)]
 
         # TODO
@@ -158,6 +157,13 @@ class GitLogCommand(TortoiseGitCommand):
 
     def _relevant_path(self):
         return self._active_file_or_repo_path()
+
+class GitLogRepoCommand(TortoiseGitCommand):
+    def run(self):
+        self._run_command('log')
+
+    def _relevant_path(self):
+        return self._active_repo_path()
 
 
 class GitDiffCommand(TortoiseGitCommand):
